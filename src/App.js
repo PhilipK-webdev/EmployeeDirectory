@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Form from './component/Form/Form';
-import Card from './component/Card/Card';
 
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
           Welcome
         </h1>
         <Form />
-        <Card />
       </div>
     </div>
   );
