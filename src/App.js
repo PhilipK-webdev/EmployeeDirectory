@@ -18,7 +18,6 @@ function App() {
       if (allEmployees[index].first.toLowerCase().startsWith(e.target.value.toLowerCase())) {
         filteredEmp.push(allEmployees[index])
       }
-
     }
     setEmployee(filteredEmp);
   }
@@ -58,7 +57,7 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="jumbotron rounded-0">
-          <h2 className="text-center mb-3">Welcome</h2>
+          <h1 className="text-center mb-3 text-monospace bg-success text-white">Welcome</h1>
           <Form modifyName={modifyName} submitName={submitName} showAll={showAll} />
           <Employee employee={employee} />
         </div>
