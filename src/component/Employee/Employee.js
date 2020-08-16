@@ -1,6 +1,5 @@
 import React from 'react';
 const Employee = ({ employee }) => {
-
     return (
         <div className="container">
             <table className="table table-borderless table-dark">
@@ -28,7 +27,6 @@ const Employee = ({ employee }) => {
 
                 </tbody>
             </table>
-            {/* <button className="btn btn-primary ml-2 rounded-0" type="submit" >Sort A-Z</button> */}
         </div >
     )
 }
