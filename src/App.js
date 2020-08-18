@@ -10,16 +10,19 @@ function App() {
   const [employee, setEmployee] = useState([]);
   const [allEmployees, setALlEmployees] = useState([]);
 
+
+
+
   const modifyName = (e) => {
     setName({ name: e.target.value });
     let filteredEmp = [];
     for (let index = 0; index < allEmployees.length; index++) {
-
       if (allEmployees[index].first.toLowerCase().startsWith(e.target.value.toLowerCase())) {
         filteredEmp.push(allEmployees[index])
       }
     }
     setEmployee(filteredEmp);
+    name.name = "";
   }
 
   useEffect(() => {
@@ -36,7 +39,6 @@ function App() {
   }
   const submitName = (e) => {
     e.preventDefault();
-
     allEmployees.sort(function (a, b) {
       if (a.first < b.first) { return -1; }
       if (a.first > b.first) { return 1; }
@@ -57,7 +59,7 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="jumbotron rounded-0">
-          <h1 className="text-center mb-3 text-monospace bg-success text-white">Welcome</h1>
+          <h1 className="text-center mb-3 text-monospace bg-success text-white">Welcome To Employee Director</h1>
           <Form modifyName={modifyName} submitName={submitName} showAll={showAll} />
           <Employee employee={employee} />
         </div>

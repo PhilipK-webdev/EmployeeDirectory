@@ -3,7 +3,7 @@ import React from 'react';
 const Form = ({ modifyName, submitName, showAll }) => {
     return (
         <div>
-            <form className="form-group">
+            <form className="form-group" >
                 <label>Look For Employee: </label>
                 <input className="form-group ml-3" type="text" placeholder="Enter Name" onChange={modifyName} />
             </form>
