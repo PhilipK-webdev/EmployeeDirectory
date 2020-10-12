@@ -1,7 +1,7 @@
 
 
   [![Generic badge](https://img.shields.io/badge/react-MIT-blue.svg)](https://shields.io/)
-   [![Generic badge](https://img.shields.io/badge/gh-pages.js-MIT-blue.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/github_pages.js-MIT-blue.svg)](https://shields.io/)
   ![followers](https://img.shields.io/github/followers/PhilipK-webdev?logoColor=red&style=social)
   ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 # Introduction: Employee Directory
@@ -12,7 +12,8 @@ For this assignment, you'll create a employee directory with React.
 ## User Story
 
 ```
-As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+As a user, I want to be able to view my entire employee directory
+ at once so that I have quick access to their information.
 
 ```
 
