@@ -1,7 +1,13 @@
 
-# Introduction: Home Assignment Employee Directory
 
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+  [![Generic badge](https://img.shields.io/badge/react-MIT-blue.svg)](https://shields.io/)
+   [![Generic badge](https://img.shields.io/badge/gh-pages.js-MIT-blue.svg)](https://shields.io/)
+  ![followers](https://img.shields.io/github/followers/PhilipK-webdev?logoColor=red&style=social)
+  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+# Introduction: Employee Directory
+
+For this assignment, you'll create a employee directory with React.
+ This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
 
 ## User Story
 
@@ -10,13 +16,10 @@ As a user, I want to be able to view my entire employee directory at once so tha
 
 ```
 
-## Motivation
+## Screeshot
 
-```
-The last phase of the course is React. 
-Trying to demonstrate the functionality of React, the Reusability and the collaboration between js and HTML. 
+![](./src/img/employee.PNG)
 
-```
 ## Getting Started
 
 ### `npm start`
@@ -26,11 +29,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
